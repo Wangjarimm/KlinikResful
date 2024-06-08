@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "fc76ac0d-fadd-496d-963f-aceafe615fe9",
+		"name": "Proyek",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27367960"
+	},
+	"item": [
+		{
+			"name": "Read",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"nama_lengkap\": \"Gaizka Wisnu Prawira\",\r\n            \"nik\": 3173030305040006,\r\n            \"jenis_kelamin\": \"Pria\",\r\n            \"tempat_lahir\": \"jakarta\",\r\n            \"tanggal_lahir\": \"2024-01-10T00:00:00+07:00\",\r\n            \"alamat\": \"Depok\",\r\n            \"no_hp\": \"0896436888273\",\r\n            \"reservasi\": \"2024-02-06T00:00:00+07:00\",\r\n            \"id_jadwal\": \"3\",\r\n            \"tgl_reservasi\": \"2024-01-25T09:45:56+07:00\"\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/belajar",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"belajar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"nama_lengkap\": \"Gaizka Wisnu Prawira\",\r\n            \"nik\": 3173030305040006,\r\n            \"jenis_kelamin\": \"Pria\",\r\n            \"tempat_lahir\": \"jakarta\",\r\n            \"tanggal_lahir\": \"2024-01-10T00:00:00+07:00\",\r\n            \"alamat\": \"Depok\",\r\n            \"no_hp\": \"0896436888273\",\r\n            \"reservasi\": \"2024-02-06T00:00:00+07:00\",\r\n            \"id_jadwal\": \"3\",\r\n            \"tgl_reservasi\": \"2024-01-25T09:45:56+07:00\"\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/belajar",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"belajar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"id\" : 235,    \r\n            \"nama_lengkap\": \"Gaizka Wisnu Nunu\",\r\n            \"nik\": 3173030305040006,\r\n            \"jenis_kelamin\": \"Pria\",\r\n            \"tempat_lahir\": \"jakarta\",\r\n            \"tanggal_lahir\": \"2024-01-10T00:00:00+07:00\",\r\n            \"alamat\": \"Depok\",\r\n            \"no_hp\": \"0896436888273\",\r\n            \"reservasi\": \"2024-02-06T00:00:00+07:00\",\r\n            \"id_jadwal\": \"3\",\r\n            \"tgl_reservasi\": \"2024-01-25T09:45:56+07:00\"\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/belajar/235",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"belajar",
+						"235"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read by  id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
